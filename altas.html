@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Producto</title>
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="icon" href="imagenesStyle/laTr3nzaFavicon.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Freeman&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar-index ">
+            <div class="contenedorLogo">
+                <img class="logo-nav" src="./static/imagenesStyle/logo.jpg" alt="logo agencia de aprendizaje">
+            </div>
+        </nav>
+    </header>
+
+    <div class="opciones"><h1>Agregar Productos al Inventario</h1></div>
+
+    <form id="formulario" enctype="multipart/form-data">
+        
+        <label for="descripcion">Descripción:</label>
+        <input type="text" id="descripcion" name="descripcion" required><br>
+
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" name="cantidad" required><br>
+
+        <label for="precio">Precio:</label>
+        <input type="number" step="0.01" id="precio" name="precio" required><br>
+
+        <label for="imagenProducto">Imagen del producto:</label>
+        <input type="file" id="imagenProducto" name="imagen">
+
+        <br><br>
+        <label for="proveedorProducto">Proveedor:</label>
+        <input type="text" id="proveedorProducto" name="proveedor">
+        
+        <button type="submit">Agregar Producto</button>
+        <a href="index.html">Menu principal</a>
+    </form>
+
+    <script src="./altas.js"></script>
+</body>
+
+</html>

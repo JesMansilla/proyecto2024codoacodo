@@ -1,0 +1,139 @@
+*{
+    font-family: "Freeman", sans-serif;  
+    margin: 0;
+}
+
+body {
+    background-color: #547233;
+    color:white;
+}
+
+.opciones{
+    margin-top: 200px;
+}
+
+.contenedor-centrado {
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar-index{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100vw;
+    height: 120px;
+    background-image: url(/static/imagenesStyle/productosNaturales.jpeg);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    position: fixed; 
+    box-shadow: 10px 10px 20px rgba(208, 208, 194, 0.5);
+}
+
+.contenedorLogo{
+    height: 100%;
+}
+
+.logo-nav{height: 100%;
+    border-radius: 60px;
+    overflow: hidden;
+    margin-left: 1em;   
+}
+
+p {
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #f1e275;
+    font-size: 50px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid rgb(175, 148, 74);
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(91, 118, 76, 0.3);
+}
+
+table {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #297e12;
+    border: 1px solid rgb(122, 132, 142);
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button {
+    padding: 8px;
+    margin:4px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    padding: 8px;
+    margin:4px;
+    background-color: #eedcb9;
+    color: #1d1a39;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 85%;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+a:hover {
+    background-color: #1d1a39;
+    color:#f6cb7d
+}

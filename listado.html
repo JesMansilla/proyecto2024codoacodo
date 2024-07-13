@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Productos</title>
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="icon" href="imagenesStyle/laTr3nzaFavicon.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Freeman&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar-index ">
+            <div class="contenedorLogo">
+                <img class="logo-nav" src="./static/imagenesStyle/logo.jpg" alt="logo agencia de aprendizaje">
+            </div>
+        </nav>
+    </header>
+
+    <div class="opciones"><h1>Listado de Productos del Inventario</h1></div> 
+
+    <table> 
+        <thead> 
+                <th>Código</th>
+                <th>Descripción</th>
+                <th>Cantidad</th>                
+                <th align="right">Precio</th>
+                <th>Imagen</th>
+                <th align="right">Proveedor</th>
+                
+            </tr>
+        </thead>
+        <tbody id="tablaProductos"> </tbody>
+    </table><br>
+
+    <div class="contenedor-centrado">
+        <a href="index.html">Menu principal</a>
+    </div>
+
+    <script src="./listado.js"></script>
+</body>
+</html>
